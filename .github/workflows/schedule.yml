@@ -1,3 +1,4 @@
+name: scheduled events
 on:
   schedule:
     - cron: '*/1 * * * *'
