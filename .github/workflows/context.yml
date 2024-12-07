@@ -7,7 +7,7 @@ on:
 
 jobs:
   my_context:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       env:
 
