@@ -1,4 +1,4 @@
-name: Jobs withoit depends
+name: Jobs without depends
 
 on:
   push:
@@ -9,11 +9,11 @@ jobs:
   job2:
     runs-on: ubuntu-latest
     steps:
-    - name: stepA
-      run echo "Chaitu"
+      - name: stepA
+        run echo "Chaitu"
 
   job1:
     runs-on:ubuntu-latest
     steps:
-    - name: stepB
-      run echo "Hi"
+      - name: stepB
+        run echo "Hi"
