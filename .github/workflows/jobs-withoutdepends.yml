@@ -13,7 +13,7 @@ jobs:
         run: echo "Chaitu"
 
   job1:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: stepB
         run: echo "Hi"
